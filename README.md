@@ -24,6 +24,25 @@
 pip install -r requirements.txt
 ```
 
+Создайте миграции
+
+```sh
+python3 manage.py makemigrations
+```
+
+Запустите миграции в БД
+
+```sh
+python3 manage.py migrate
+```
+
+Создайте суперпользователя, чтобы войти в админку сайта
+
+```sh
+python3 manage.py createsuperuser
+```
+
+
 Запустите разработческий сервер
 
 ```sh
